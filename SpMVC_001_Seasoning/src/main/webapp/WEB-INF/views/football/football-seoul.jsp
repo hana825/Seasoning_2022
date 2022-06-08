@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="${rootPath}/static/css/nav.css" />
     <link rel="stylesheet" href="${rootPath}/static/css/k-league-box.css" />
     <link rel="stylesheet" href="${rootPath}/static/css/area-view.css" />
+    <link rel="stylesheet" href="${rootPath}/static/css/schedule.css" />
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -27,7 +28,7 @@
  
         <div id="drop">
           <ul id="menu">
-            <li id="logo"><a href="../html/main.html"><img src="../images/logo.png"></a></a></li>
+            <li id="logo"><a href="${rootPath}/"><img src="../images/logo.png"></a></li>
             <li id="soccer">
               <a href="../html/soccer-seoul.html">축구</a>
               <ul class="drop-menu drop-soccer">
@@ -99,52 +100,9 @@
         <div id="k-league-box">
           <div id="korea-map"><img src="${rootPath}/static/images/korea-map.png" /></div>
           <div id="ticket-book">
-            <p>FC서울 홈구장: <span>서울 월드컵 경기장</span></p>
-            <img src="" />
-            <div id="match-text">
-              <a><i class="fa-solid fa-chevron-left"></i></a><p>5월 경기 일정</p><a href="#"><i class="fa-solid fa-chevron-right"></i></a>
-             </div>
-            <table>
-              <tr>
-                <td>경기</td>
-                <td>날짜</td>
-                <td>시간</td>
-                <td>매치업</td>
-              </tr>
-              <tr>
-                <td>R11 K리그1</td>
-                <td>05.08(일)</td>
-                <td>16:30</td>
-                <td>FC서울 &nbsp; VS &nbsp; 수원FC</td>
-              </tr>
-              <tr>
-                <td>R12 K리그1</td>
-                <td>05.15(일)</td>
-                <td>19:30</td>
-                <td>FC서울 &nbsp; VS &nbsp; 포항 스틸러스</td>
-              </tr>
-              <tr>
-                <td>R14 K리그1</td>
-                <td>05.21(토)</td>
-                <td>16:30</td>
-                <td>FC서울 &nbsp; VS &nbsp; 성남FC</td>
-              </tr>
-              <tr>
-                <td>4라운드 FA컵</td>
-                <td>05.25(수)</td>
-                <td>19:30</td>
-                <td>FC서울 &nbsp; VS &nbsp; 제주UNT</td>
-              </tr>
-              <tr>
-                <td>R15 K리그1</td>
-                <td>05.28(토)</td>
-                <td>16:30</td>
-                <td>FC서울 &nbsp; VS &nbsp; 김천 상무</td>
-              </tr>
-            </table>
-            <a href="https://www.fcseoul.com/tickets/reserveSingleTicket"
-              ><div id="ticket-link">티켓 예매하러 가기</div></a
-            >
+          <!-- 경기일정 부분 따로 뺌 -->
+            <%@ include file="/WEB-INF/views/schedule.jsp" %>
+            
           </div>
         </div>
         <a><div class="map-point seoul" style="  font-size: 18px;

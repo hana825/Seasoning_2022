@@ -1,4 +1,4 @@
-package com.seasoning.app;
+package com.seasoning.app.controller;
 
 import java.util.Locale;
 
@@ -15,10 +15,5 @@ public class HomeController {
 		return "home";
 	}
 	
-	
-	@RequestMapping(value ="/soccer/main", method = RequestMethod.GET)
-	public String soccer(Locale locale, Model model) {
-		return "soccer/main";
-	}
-	
+
 }

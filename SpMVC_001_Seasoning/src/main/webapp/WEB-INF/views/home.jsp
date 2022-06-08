@@ -19,17 +19,16 @@
 	<div class="main_button">
 		<img class="logo_img" src="${rootPath}/static/images/로고1.png" />
 
-		<button class="football" onclick="location.href = 'soccer-seoul.jsp'">
+		<button class="football" onclick="location.href = '${rootPath}/soccer/soccer-seoul'">
 			<img class="button_img" src="${rootPath}/static/images/football_text.png" /><br />
-			<p class="m_b_text">K-리그</a></p>
+			<p class="m_b_text">K-리그</p>
 			<p class="button_text">
 				정보보러가기 <b id="button_text_arrow"> &#10095;</b>
 			</p>
 		</button>
 		<img class="football_img" src="${rootPath}/static/images/football.png" />
 
-		<button class="baseball"
-			onclick="">
+		<button class="baseball" onclick="">
 			<img class="button_img" src="${rootPath}/static/images/baseball_text.png" /><br />
 			<p class="m_b_text">KBO-리그</p>
 			<p class="button_text">
@@ -38,8 +37,7 @@
 		</button>
 		<img class="baseball_img" src="${rootPath}/static/images/baseball.png" />
 
-		<button class="volleyball"
-			onclick="">
+		<button class="volleyball"onclick="">
 			<img class="button_img" src="${rootPath}/static/images/volleyball_text.png" /><br />
 			<p class="m_b_text">V-리그</p>
 			<p class="button_text">
