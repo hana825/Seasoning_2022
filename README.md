@@ -12,5 +12,6 @@
 * service
 
 ### :seedling: 2022-06-11
-* schedule table 끝
+* schedule table - 축구, 야구
 * jsp 정리하기
+```<c:choose>```, ```<c:forEach>```
