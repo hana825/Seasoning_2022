@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Season + ing ㅣ fb-seoul</title>
-<link rel="stylesheet" href="${rootPath}/static/css/nav.css" />
+<link rel="stylesheet" href="${rootPath}/static/css/nav.css?ver=20220612001" />
 <link rel="stylesheet" href="${rootPath}/static/css/k-league-box.css" />
 <link rel="stylesheet"
 	href="${rootPath}/static/css/area-view.css?ver=2022-06-11-012" />
