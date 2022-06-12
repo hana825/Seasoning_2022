@@ -30,17 +30,17 @@
 				</thead>
 
 				<tbody>
-					<c:forEach items="${DEAGUAROUND}" var="DEAGUAROUND">
+					<c:forEach items="${DAEGUAROUND}" var="DAEGUAROUND">
 						<tr>
-							<td>${DEAGUAROUND.title}</td>
-							<td>${DEAGUAROUND.addr1}</td>
-							<td>${DEAGUAROUND.addr2}</td>
-							<td>${DEAGUAROUND.tel}</td>
-							<td>${DEAGUAROUND.contentid}</td>
-							<td>${DEAGUAROUND.firstimage}</td>
-							<td>${DEAGUAROUND.mapx}</td>
-							<td>${DEAGUAROUND.mapy}</td>
-							<td>${DEAGUAROUND.dist}</td>
+							<td>${DAEGUAROUND.title}</td>
+							<td>${DAEGUAROUND.addr1}</td>
+							<td>${DAEGUAROUND.addr2}</td>
+							<td>${DAEGUAROUND.tel}</td>
+							<td>${DAEGUAROUND.contentid}</td>
+							<td>${DAEGUAROUND.firstimage}</td>
+							<td>${DAEGUAROUND.mapx}</td>
+							<td>${DAEGUAROUND.mapy}</td>
+							<td>${DAEGUAROUND.dist}</td>
 						</tr>
 					</c:forEach>
 

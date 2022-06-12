@@ -22,14 +22,14 @@ public class AroundController {
 	}
 	
 	//TODO 대구
-	@RequestMapping(value="/deagu", method=RequestMethod.GET)
+	@RequestMapping(value="/daegu", method=RequestMethod.GET)
 	public String getDeaguAround(Model model) throws IOException{
 		
-		List<AroundVO> AroundList = aroundService.getDeaguAround();
+		List<AroundVO> AroundList = aroundService.getDaeguAround();
 		
-		model.addAttribute("DEAGUAROUND",AroundList);
+		model.addAttribute("DAEGUAROUND",AroundList);
 		
-		return "/around/deagu";
+		return "/around/daegu";
 		
 	}
 }

@@ -30,7 +30,7 @@ public class AroundServiceImpl implements AroundService{
 	
 	//TODO 대구 
 	@Override
-	public List<AroundVO>  getDeaguAround() throws IOException{
+	public List<AroundVO>  getDaeguAround() throws IOException{
 		//공공데이터 키값하고 원하는 설정 연결하기
 		String url ="http://api.visitkorea.or.kr/openapi/service/rest/KorService/locationBasedList"; /*URL*/
 		try {

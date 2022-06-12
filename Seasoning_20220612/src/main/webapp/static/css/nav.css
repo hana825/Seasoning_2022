@@ -14,7 +14,7 @@ header {
   width: 100vw;
   height: 80px;
   background-color: rgb(0, 24, 65);
-  display: flex;
+  display: inline-table;
 }
 nav {
   width: 1220px;

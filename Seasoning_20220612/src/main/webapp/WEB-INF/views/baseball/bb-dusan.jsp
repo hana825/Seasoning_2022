@@ -57,7 +57,7 @@
 					서울</div></a> <a><div class="map-point gangwon1">강원 FC</div></a> <a><div
 					class="map-point gangwon2">강원 FC</div></a> <a><div
 					class="map-point gimcheon">김천 상무</div></a> <a><div
-					class="map-point deagu">대구 FC</div></a> <a><div
+					class="map-point daegu">대구 FC</div></a> <a><div
 					class="map-point seongnam">성남 FC</div></a> <a><div
 					class="map-point suwon1">수원 삼성</div></a> <a><div
 					class="map-point suwon2">수원 FC</div></a> <a><div
