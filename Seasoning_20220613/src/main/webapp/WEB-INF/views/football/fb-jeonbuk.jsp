@@ -8,7 +8,7 @@
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Season + ing ㅣ fb-seoul</title>
+<title>Season + ing ㅣ fb-jeonbuk</title>
 <link rel="stylesheet" href="${rootPath}/static/css/nav.css" />
 <link rel="stylesheet" href="${rootPath}/static/css/k-league-box.css" />
 <link rel="stylesheet"
@@ -34,8 +34,8 @@
 
 				<div id="ticket-book">
 					<div style="display: none;">
-						<p id="st_x">37.5682320566392</p>
-						<p id="st_y">126.89728895889323</p>
+						<p id="st_x">35.868071</p>
+						<p id="st_y">127.06448</p>
 					</div>
 
 					<!-- 경기일정 부분 따로 뺌 -->
@@ -43,7 +43,7 @@
 				</div>
 
 			</div>
-			<a href="${rootPath}/football/fb-seoul"><div class="map-point seoul" style="font-size: 18px; background-color: rgb(0, 24, 65);">FC 서울</div></a> 
+			<a href="${rootPath}/football/fb-seoul"><div class="map-point seoul">FC 서울</div></a> 
 			<a href="${rootPath}/football/fb-gangwon1"><div class="map-point gangwon1">강원 FC</div></a> 
 			<a href="${rootPath}/football/fb-gangwon2"><div class="map-point gangwon2">강원 FC</div></a> 
 			<a href="${rootPath}/football/fb-gimcheon"><div class="map-point gimcheon">김천 상무</div></a> 
@@ -53,7 +53,7 @@
 			<a href="${rootPath}/football/fb-suwon"><div class="map-point suwon2">수원 FC</div></a> 
 			<a href="${rootPath}/football/fb-ulsan"><div class="map-point ulsan">울산 현대</div></a> 
 			<a href="${rootPath}/football/fb-incheon"><div class="map-point incheon">인천 UNT</div></a> 
-			<a href="${rootPath}/football/fb-jeonbuk"><div class="map-point jeonbuk">전북 현대</div></a> 
+			<a href="${rootPath}/football/fb-jeonbuk"><div class="map-point jeonbuk" style="font-size: 18px; background-color: rgb(0, 24, 65);">전북 현대</div></a> 
 			<a href="${rootPath}/football/fb-jeju"><div class="map-point jeju">제주 UNT</div></a> 
 			<a href="${rootPath}/football/fb-pohang"><div class="map-point pohang">포항 스틸러스</div></a>
 		</article>

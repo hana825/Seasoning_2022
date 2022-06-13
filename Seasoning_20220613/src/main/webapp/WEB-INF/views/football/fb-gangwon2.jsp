@@ -8,13 +8,12 @@
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Season + ing ㅣ fb-seoul</title>
+<title>Season + ing ㅣ fb-gangwon2</title>
 <link rel="stylesheet" href="${rootPath}/static/css/nav.css" />
 <link rel="stylesheet" href="${rootPath}/static/css/k-league-box.css" />
 <link rel="stylesheet"
 	href="${rootPath}/static/css/area-view.css?ver=2022-06-11-012" />
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 <script
 	src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
 
@@ -34,8 +33,8 @@
 
 				<div id="ticket-book">
 					<div style="display: none;">
-						<p id="st_x">37.5682320566392</p>
-						<p id="st_y">126.89728895889323</p>
+						<p id="st_x">37.773561</p>
+						<p id="st_y">128.897503</p>
 					</div>
 
 					<!-- 경기일정 부분 따로 뺌 -->
@@ -43,9 +42,9 @@
 				</div>
 
 			</div>
-			<a href="${rootPath}/football/fb-seoul"><div class="map-point seoul" style="font-size: 18px; background-color: rgb(0, 24, 65);">FC 서울</div></a> 
+			<a href="${rootPath}/football/fb-seoul"><div class="map-point seoul">FC 서울</div></a> 
 			<a href="${rootPath}/football/fb-gangwon1"><div class="map-point gangwon1">강원 FC</div></a> 
-			<a href="${rootPath}/football/fb-gangwon2"><div class="map-point gangwon2">강원 FC</div></a> 
+			<a href="${rootPath}/football/fb-gangwon2"><div class="map-point gangwon2" style="font-size: 18px; background-color: rgb(0, 24, 65);">강원 FC</div></a> 
 			<a href="${rootPath}/football/fb-gimcheon"><div class="map-point gimcheon">김천 상무</div></a> 
 			<a href="${rootPath}/football/fb-daegu"><div class="map-point deagu" >대구 FC</div></a> 
 			<a href="${rootPath}/football/fb-seongnam"><div class="map-point seongnam">성남 FC</div></a> 

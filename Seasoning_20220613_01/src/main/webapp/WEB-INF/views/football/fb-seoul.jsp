@@ -12,7 +12,8 @@
 <link rel="stylesheet" href="${rootPath}/static/css/nav.css" />
 <link rel="stylesheet" href="${rootPath}/static/css/k-league-box.css" />
 <link rel="stylesheet"
-	href="${rootPath}/static/css/area-view.css?ver=2022-06-11-012" />
+	href="${rootPath}/static/css/area-view.css?ver=2022-06-11-014" />
+
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 <script
@@ -24,25 +25,25 @@
 		<!-- 네비게이션 따로 뺌 -->
 		<%@ include file="/WEB-INF/views/nav.jsp" %>
 	</header>
-	<section>
+	
+	<!--body start-->
+	<section id="fb_section">
 		<article>
 			<h1>케이리그</h1>
 			<div id="k-league-box">
 				<div id="korea-map">
 					<img src="${rootPath}/static/images/korea-map.png" />
 				</div>
-
 				<div id="ticket-book">
 					<div style="display: none;">
 						<p id="st_x">37.5682320566392</p>
 						<p id="st_y">126.89728895889323</p>
 					</div>
-
 					<!-- 경기일정 부분 따로 뺌 -->
 					<%@ include file="/WEB-INF/views/football/fb-schedule.jsp"%>
 				</div>
-
 			</div>
+			<!-- 구단 지도 -->
 			<a href="${rootPath}/football/fb-seoul"><div class="map-point seoul" style="font-size: 18px; background-color: rgb(0, 24, 65);">FC 서울</div></a> 
 			<a href="${rootPath}/football/fb-gangwon1"><div class="map-point gangwon1">강원 FC</div></a> 
 			<a href="${rootPath}/football/fb-gangwon2"><div class="map-point gangwon2">강원 FC</div></a> 
@@ -60,10 +61,8 @@
 		<article>
 			<h1 id="around-tour-text">주변 관광지</h1>
 			<div id="around-tour-box">
-
+				<!-- 카카오 지도 -->
 				<div id="map" style="width: 780px; height: 700px"></div>
-
-
 
 				<div id="tour-list">
 					<div id="choice-tour-menu">
@@ -100,6 +99,8 @@
 
 
 	</section>
+	<!--body end-->
+	
 	<footer></footer>
 </body>
 <script type="text/javascript"
@@ -107,5 +108,9 @@
 	
 </script>
 <script src="${rootPath}/static/js/fb_map.js?ver=2022-06-10-002"></script>
+<!--js start-->
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="${rootPath}/static/js/map_button.js?ver=2022-06-13-013"></script>
+<!--js end-->
 
 </html>
