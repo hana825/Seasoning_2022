@@ -1,19 +1,8 @@
-## :pushpin: 키워드 헷갈리는 거 정리
+## Seasoning
 
-### :soccer: 축구(football, fb)
-* gangwon1 : 강원(춘천), gangwon2 : 강원(강릉)
-* suwon1 : 수원 삼성, suwon2 : 수원 FC
-* 경기일정 : fb-schedule(jsp, css)
+### :seedling: 20220601
+* 틀
+* Spring으로 옮기는거 하다가 말았다
 
-### :baseball: 야구(baseball, bb)
-* 경기일정 : bb-schedule(jsp, css)
-
-### :volleyball: 배구(volleyball, vb)
-
-### :world_map: location
-* cbd : 충청북도
-* cnd : 충청남도
-* ggd : 경기도
-* grbd : 전라북도
-* grnd : 전라남도
-* gwd : 강원도
+### :seedling: 20220602
+* 경기일정 테이블 따로 뺐다! 모양은 이상해!
